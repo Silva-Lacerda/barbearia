@@ -1,6 +1,7 @@
 #home {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     min-height: calc(100vh - 110px);
     position: relative;
 }
@@ -8,7 +9,7 @@
 #inc {
     display: flex;
     align-items: center;
-    margin-top: 5%;
+    margin-top: 2%;
     flex-direction: column;
     gap: 28px;
 }
@@ -19,6 +20,7 @@
 }
 
 #inc .title {
+    color: var(--color-primary-5);
     text-align: center;
     font-size: 5rem;
 }
@@ -29,12 +31,58 @@
 
 #baber_pole {
     display: flex;
-    justify-content: center;
+    width: 50%;
+    justify-content: end;
     align-items: center;
 }
 
-#pole {
+#barber_pole img {
     width: 20%;
- 
+    margin-left: 40%;
 }
+
+#info {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+
+#info .title {
+    color: var(--color-primary-1);
+    font-weight: bolder;
+    text-align: center;
+    font-size: 19px;
+    font-family: var(--font-style-2);
+    padding: 0px 0px 20px 0px;
+}
+
+#info .description {
+    color: var(--color-primary-1);
+    font-weight: bolder;
+    text-align: center;
+    font-size: 12px;
+    font-family: var(--font-style-2);
+}
+
+.shape {
+    margin: 0 0 0 60px;
+    display: block;
+    background-color: var(--color-primary-5);
+    width: 2px;
+    height: 80px;
+}
+
+.box {
+    padding: 0 0 0 75px ;
+}
+
+@media screen and (max-width: 1090px) {
+    #info {
+        display: none;
+    }
+}
+
 

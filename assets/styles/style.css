@@ -52,7 +52,7 @@ html {
 
 .social-media-buttons {
     display: flex;
-    gap: 18px;
+    gap: 50px;
     justify-content: center;
 }
 
@@ -81,4 +81,9 @@ html {
 
 .title {
     font-size: 3rem;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
 }

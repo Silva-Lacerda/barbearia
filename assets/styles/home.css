@@ -84,9 +84,14 @@
         display: none;
     }
 
+    #inc {
+        margin-top: -180px;
+    }
+
     #inc .title {
         font-size: 3rem;
     }
+
 
     
 

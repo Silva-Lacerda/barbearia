@@ -80,18 +80,28 @@
 }
 
 @media screen and (max-width: 1090px) {
-    #info {
-        display: none;
+    .shape {
+        display:  none;
     }
-
     #inc {
-        margin-top: -180px;
+        margin-top: 10px;
     }
 
     #inc .title {
         font-size: 3rem;
     }
 
+    #info {
+        margin-top: 70px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .box {
+        padding: 0 0 0 10px;
+    }
 
     
 

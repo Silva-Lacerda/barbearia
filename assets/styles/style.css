@@ -49,3 +49,36 @@ html {
     color: var(--color-primary-5)
 
 }
+
+.social-media-buttons {
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+}
+
+.social-media-buttons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 40px;
+    border: 2px solid var(--color-primary-1);
+    font-size: 2rem;
+    border-radius: 15px;
+    text-decoration: none;
+    color: var(--color-primary-1);
+    transition: back-ground .3s ease;
+}
+
+.social-media-buttons a:hover {
+    background-color: var(--color-primary-1);
+    color: var(--color-neutral-1);
+}
+
+.sub-title {
+    color: var(--color-primary-1);
+}
+
+.title {
+    font-size: 3rem;
+}

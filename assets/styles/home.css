@@ -80,7 +80,7 @@
 }
 
 @media screen and (max-width: 1090px) {
-    .shape {
+    #info{
         display:  none;
     }
     #inc {
@@ -91,17 +91,6 @@
         font-size: 3rem;
     }
 
-    #info {
-        margin-top: 70px;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        gap: 50px;
-    }
-
-    .box {
-        padding: 0 0 0 10px;
-    }
 
     
 

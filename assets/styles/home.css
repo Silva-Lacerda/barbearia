@@ -82,7 +82,7 @@
         display:  none;
     }
     #inc {
-        margin-top: 1px;
+        margin-top: -10px;
     }
 
     #inc .title {

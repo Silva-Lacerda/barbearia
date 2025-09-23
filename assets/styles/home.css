@@ -82,15 +82,16 @@
         display:  none;
     }
     #inc {
-        margin-top: 10px;
+        margin-top: 5px;
     }
 
     #inc .title {
         font-size: 3rem;
     }
 
-
-    
+    #navalha_icon {
+    width: 20%;
+}
 
 
 }

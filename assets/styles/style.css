@@ -62,16 +62,16 @@ html {
     justify-content: center;
     width: 45px;
     height: 40px;
-    border: 2px solid var(--color-primary-1);
+    border: 2px solid var(--color-primary-3);
     font-size: 2rem;
     border-radius: 15px;
     text-decoration: none;
-    color: var(--color-primary-1);
+    color: var(--color-primary-3);
     transition: back-ground .3s ease;
 }
 
 .social-media-buttons a:hover {
-    background-color: var(--color-primary-1);
+    background-color: var(--color-primary-3);
     color: var(--color-neutral-1);
 }
 

@@ -29,16 +29,15 @@
     color: var(--color-primary-3);
 }
 
-#baber_pole {
+#navalha {
     display: flex;
-    width: 50%;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
+    width: 15%;
 }
 
-#barber_pole img {
-    width: 20%;
-    margin-left: 40%;
+#navalha_icon {
+    width: 25%;
 }
 
 #info {
@@ -70,7 +69,7 @@
 .shape {
     margin: 0 0 0 60px;
     display: block;
-    background-color: var(--color-primary-5);
+    background-color: var(--color-primary-3);
     width: 2px;
     height: 80px;
 }

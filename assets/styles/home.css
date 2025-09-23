@@ -82,6 +82,10 @@
         display:  none;
     }
 
+    #inc {
+        margin-bottom: 90px;
+    }
+
     #inc .title {
         font-size: 3rem;
     }

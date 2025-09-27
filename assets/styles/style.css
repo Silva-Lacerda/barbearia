@@ -3,6 +3,7 @@
 
 @import url('header.css');
 @import url('home.css');
+@import url('service.css');
 
 :root {
     --color-primary-1: #D9B68B;
@@ -27,6 +28,10 @@
 
 html {
     scroll-behavior: smooth;
+}
+
+body {
+    box-sizing: border-box;
 }
 
 .btn-default {

@@ -4,6 +4,7 @@
 @import url('header.css');
 @import url('home.css');
 @import url('service.css');
+@import url('testimonials.css');
 
 :root {
     --color-primary-1: #D9B68B;

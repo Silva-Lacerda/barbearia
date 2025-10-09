@@ -2,8 +2,6 @@
     min-height: calc(50vh - 91px);
     display: flex;
     justify-content: center;
-    background-image: url('../img/back-ground.png');
-    background-size: cover;
 }
 
 #testimonials_content {

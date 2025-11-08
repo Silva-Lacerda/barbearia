@@ -20,6 +20,10 @@ header {
     gap: 90px;
 }
 
+#buttons a{
+text-decoration: none;
+}
+
 #logo {
     border-radius: 50px;
 }

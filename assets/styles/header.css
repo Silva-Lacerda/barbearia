@@ -12,7 +12,12 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 28%;
+    gap: 25.5%;
+}
+
+#buttons {
+    display: flex;
+    gap: 90px;
 }
 
 #logo {
@@ -21,9 +26,9 @@ header {
 
 #nav_list {
     display: flex;
-    justify-content: center;
+    margin-left: 150px;
     list-style: none;
-    gap: 80px;
+    gap: 88px;
 }
 
 .nav-item a {
@@ -31,6 +36,8 @@ header {
     font-size: 24px;
     color: var(--color-primary-1);
 }
+
+
 /*Estilo Active nao esquecer*/
 
 #mobile_btn {
@@ -44,15 +51,14 @@ header {
 
 /*Estilo Mobile*/
 @media screen and (max-width: 1090px) {
-
-    
     #nav_list,
+    #buttons,
     #navbar .btn-default {
         display: none;
     }
     
     #logo {
-        margin-left: 32%;
+        margin-left: 31.2%;
     }
 
 

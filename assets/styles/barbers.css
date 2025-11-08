@@ -48,14 +48,14 @@
 
 
 @media screen and (max-width: 1170px) {
+    #barbers_menu .subtitle {
+        text-align: center;
+    }
+
     #barbers {
         display: flex;
         flex-direction: column;
     }
-
-
-
-
 
     .barber img {
         width: 300px;

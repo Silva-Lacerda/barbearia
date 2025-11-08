@@ -78,6 +78,10 @@ text-decoration: none;
         margin: 10px;
     }
 
+    #mobile a{
+        text-decoration: none;
+    }
+
     #mobile.active {
         display: flex;
         flex-direction: column;

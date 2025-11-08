@@ -76,6 +76,10 @@
 
 @media screen and (max-width: 1170px) {
 
+    #services_menu {
+        padding-bottom: 90px;
+    }
+
     #services {
         flex-wrap: wrap;
         justify-content: center;

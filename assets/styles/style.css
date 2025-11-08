@@ -6,6 +6,7 @@
 @import url('home.css');
 @import url('service.css');
 @import url('testimonials.css');
+@import url('barbers.css');
 
 :root {
     --color-primary-1: #D9B68B;
@@ -60,8 +61,8 @@ body {
 
 .social-media-buttons {
     display: flex;
-    gap: 50px;
-    justify-content: center;
+    gap: 60px;
+    align-items: center;
 }
 
 .social-media-buttons a {

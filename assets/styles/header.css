@@ -70,6 +70,10 @@ header {
         cursor: pointer;
     }
 
+    .btn-default {
+        margin: 10px;
+    }
+
     #mobile.active {
         display: flex;
         flex-direction: column;

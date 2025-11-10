@@ -1,5 +1,5 @@
 #services_menu {
-    margin-top: 10px;
+    margin-top: 60px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -10,7 +10,7 @@
 #services_menu .title {
     font-size: 4em;
     font-weight: bolder;
-    margin-top: 40px;
+    margin-top: 130px;
 }
 
 #services_menu .subtitle {

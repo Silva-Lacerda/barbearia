@@ -17,6 +17,7 @@
 #inc .sub-title {
     font-size: 2rem;
     color: var(--color-primary-3);
+    margin-top: 80px;
 }
 
 #inc .title {

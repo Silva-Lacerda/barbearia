@@ -110,9 +110,13 @@ form {
 }
 
 .toggle-panel .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 160px;
     height: 46px;
     background: transparent;
+    margin-top: 20px;
     color: var(--color-primary-1);
     border: 2px solid var(--color-primary-1);
     transition: background-color .3s ease;

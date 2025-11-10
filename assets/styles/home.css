@@ -79,8 +79,14 @@
 }
 
 @media screen and (max-width: 1090px) {
-    #info{
-        display:  none;
+
+    #info {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 21px;
+        margin-top: -20%;
     }
 
     #inc {

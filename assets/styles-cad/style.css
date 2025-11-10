@@ -40,20 +40,27 @@ body {
 .btn {
     width: 100%;
     height: 48px;
-    background-color: var(--color-primary-2);
+    background-color: var(--color-neutral-1);
     border-radius: 8px;
     box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
-    border: none;
+    border: 2px solid var(--color-primary-1);
     outline: none;
     cursor: pointer;
     font-size: 16px;
-    color: var(--color-neutral-1);
+    color: var(--color-primary-1);
     font-weight: 600;
+    transition: background-color .3s ease;
+}
+
+.btn:hover {
+    background-color: var(--color-primary-1);
+    color: var(--color-neutral-1)
 }
 
 .social-icons {
     display: flex;
     justify-content: center;
+
 }
 
 .social-icons a {
@@ -62,5 +69,12 @@ body {
     border: 2px solid;
     font-size: 24px;
     margin: 0 8px;
+    color: var(--color-primary-1);
+    transition: background-color .3s ease;
+}
+
+.social-icons a:hover {
+    background-color: var(--color-primary-1);
+    color: var(--color-neutral-1)
 }
 
